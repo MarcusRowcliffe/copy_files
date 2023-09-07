@@ -13,8 +13,8 @@ Requires packages dplyr and tidyr (or tidyverse, covering both).
 copy_files(from, to)
 
 ## Arguments
-'from'  a vector of character file names to copy, including full path 
-'to'  a single character vector giving full path of the root directory into which to copy
+    from    a vector of character file names to copy, including full path 
+    to    a single character vector giving full path of the root directory into which to copy
 
 ## Example
     devtools::source_url("https://raw.githubusercontent.com/MarcusRowcliffe/copy_files/main/copy_files.R")
