@@ -6,6 +6,7 @@ Copies file from one location to another while maintaining sub-directory structu
  - If any destination directories already exist they are created.
  - If any destination directories or files already exist they are ignored with a warning.
  - If any source files do not exist they are ignored with a warning.
+
 Requires packages dplyr and tidyr (or tidyverse, covering both).
 
 ## Usage
