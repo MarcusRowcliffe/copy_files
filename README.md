@@ -5,7 +5,7 @@ Copy files maintaining sub-directory structure
 Copies files from one location to another while maintaining sub-directory structure. The root directory is taken to be the lowest level directory common to all files. The subdirectory structure below this level is copied. 
  - If any destination directories do not already exist they are created.
  - If any destination directories or files already exist they are ignored with a warning.
- - If any from files do not exist they are ignored with a warning.
+ - If any source files do not exist they are ignored with a warning.
 
 Requires packages dplyr and tidyr (or tidyverse, covering both).
 
