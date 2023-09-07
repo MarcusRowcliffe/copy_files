@@ -17,9 +17,11 @@ to  a single character vector giving full path of the root directory into which 
 
 ## Example
     devtools::source_url("https://raw.githubusercontent.com/MarcusRowcliffe/copy_files/main/copy_files.R")
-    from <- c("C:/Users/bloggs.j/data/dir1/file1.jpg",
-          "C:/Users/bloggs.j/data/dir2/subdir1/file1.jpg",
-          "C:/Users/bloggs.j/data/dir2/subdir2/file1.jpg")
+    root <- "C:/Users/bloggs.j/data"
+    from <- list.files(root, 
+                       recursive = T, 
+                       full.names = T, 
+                       pattern=".csv")
     to <- "C:/Users/bloggs.j/data_copy"
     copy_files(from, to)
 
