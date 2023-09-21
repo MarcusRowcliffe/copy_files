@@ -17,6 +17,8 @@ Requires packages dplyr and tidyr (or tidyverse, covering both).
 - to: a single character vector giving full path of the root destination directory into which to copy
 
 ## Example
+    # example transfers all csv files from a given directory (root)
+    # to a different directory, preserving sub-directory structure
     devtools::source_url("https://raw.githubusercontent.com/MarcusRowcliffe/copy_files/main/copy_files.R")
     root <- "C:/Users/bloggs.j/data"
     from <- list.files(root, 
